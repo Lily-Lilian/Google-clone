@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Google</title>
+  </head>
+  <body class="h-screen flex flex-col justify-between font-arial">
+    <header
+      class="flex items-center list-none gap-3 justify-end py-2 px-4 text-sm cursor-pointer"
+    >
+      <li class="hover:underline">Gmail</li>
+      <li class="hover:underline">Images</li>
+      <li>
+        <img
+          class="hover:bg-gray rounded-full py-2 px-2"
+          width="40"
+          src="./Images/apps_FILL0_wght400_GRAD0_opsz48.svg"
+          alt="apps"
+        />
+      </li>
+      <li>
+        <img
+          class="hover:bg-gray rounded-full py-2 px-2"
+          width="50"
+          src="./Images/AOh-ky0SFc6x9l4rkh_Mse_a8JuyUh2Ia65JrASkdZcv=s64-c-mo.jpeg"
+          alt="user"
+        />
+      </li>
+    </header>
+    <main class="flex flex-col items-center">
+      <img
+        class="max-w-xs"
+        src="./Images/googlelogo_color_272x92dp.png"
+        alt="google"
+      />
+      <div
+        class="border border-solid-gray rounded-3xl relative transform transition flex items-center px-4 mt-10 w-[90%] lg:w-2/5 hover:shadow-md"
+      >
+        <img
+          src="./Images/search_FILL0_wght400_GRAD0_opsz48 (1).svg"
+          alt="search"
+          class="w-5"
+        />
+        <input
+          type="text"
+          class="outline-none bg-none border-none py-[10px] ml-3 w-full"
+        />
+        <img src="./Images/voice.svg" alt="" class="w-5 cursor-pointer" />
+      </div>
+      <div class="flex gap-6 mt-8 text-sm cursor-pointer list-none">
+        <li
+          class="bg-gray-100 py-2 px-4 border border-transparent rounded-sm hover:border-solid-gray hover:shadow"
+        >
+          Google Search
+        </li>
+        <li
+          class="bg-gray-100 py-2 px-4 border border-transparent rounded-sm hover:border-solid-gray hover:shadow"
+        >
+          I'm feeling lucky
+        </li>
+      </div>
+      <div class="flex list-none gap-4 py-6 text-sm">
+        <li class="text-text-gray">Google offered in:</li>
+        <li class="text-blue cursor-pointer hover:underline">Français</li>
+        <li class="text-blue cursor-pointer hover:underline">Kiswahili</li>
+        <li class="text-blue cursor-pointer hover:underline">Ikinyarwanda</li>
+      </div>
+    </main>
+    <footer class="bg-gray-200 w-full bg-gray mt-auto text-text-gray">
+      <div class="border-b border-solid-gray">
+        <p class="py-4 px-8 text-md">Rwanda</p>
+      </div>
+      <div
+        class="flex justify-between text-sm list-none py-2 px-8 cursor-pointer"
+      >
+        <div class="flex items-center space-x-6 font-arial">
+          <li class="hover:underline">About</li>
+          <li class="hover:underline">Advertising</li>
+          <li class="hover:underline">Business</li>
+          <li class="hover:underline">How search works</li>
+        </div>
+        <div class="flex items-center space-x-6">
+          <li class="hover:underline">Privacy</li>
+          <li class="hover:underline">Terms</li>
+          <li class="hover:underline">Settings</li>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
