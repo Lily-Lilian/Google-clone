@@ -13,7 +13,9 @@ module.exports = {
         "gray-100": "#F8F9FA",
         "text-gray": "#70757a",
         "gray-none": "#000000DE",
-        "solid-blue": "#4285f4"
+        "solid-blue": "#4285f4",
+        "black":"#3c4043"
+
       },
       boxShadow:{
         searchshadow:"0 1px 6px rgb(32 33 36 / 28%)",
