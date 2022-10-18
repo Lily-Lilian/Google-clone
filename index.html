@@ -10,7 +10,7 @@
   </head>
   <body class="h-screen flex flex-col justify-between font-arial">
     <header
-      class="items-center list-none gap-3 lg:justify-end py-1 px-1 text-sm cursor-pointer"
+      class="items-center list-none gap-3 lg:justify-end py-2 px-2 text-sm cursor-pointer"
     >
       <div class="flex lg:justify-end justify-between items-center space-x-4">
         <div class="flex items-center space-x-4 f lg:hidden">
@@ -28,24 +28,25 @@
           </li>
           <li class="uppercase text-xs">images</li>
         </div>
-        <div class="lg:flex space-x-3 hidden">
+        <div class="lg:flex space-x-3 hidden text-gray-none">
           <li class="hover:underline">Gmail</li>
           <li class="hover:underline">Images</li>
         </div>
         <div class="flex items-center space-x-2">
           <img
-            class="hover:bg-gray rounded-full py-2 px-2"
+            class="hover:bg-gray rounded-full p-2"
             width="40"
             src="./Images/apps_FILL0_wght400_GRAD0_opsz48.svg"
             alt="apps"
           />
-
-          <img
-            class="hover:bg-gray rounded-full py-2 px-2"
-            width="50"
-            src="./Images/AOh-ky0SFc6x9l4rkh_Mse_a8JuyUh2Ia65JrASkdZcv=s64-c-mo.jpeg"
-            alt="user"
-          />
+          <div class="hover:bg-gray hover:rounded-full p-1">
+            <img
+              class="rounded-full"
+              width="30"
+              src="./Images/AOh-ky0SFc6x9l4rkh_Mse_a8JuyUh2Ia65JrASkdZcv=s64-c-mo.jpeg"
+              alt="user"
+            />
+          </div>
         </div>
       </div>
     </header>
@@ -57,7 +58,7 @@
         <img
           src="./Images/search_FILL0_wght400_GRAD0_opsz48 (1).svg"
           alt="search"
-          class="w-5"
+          class="w-5 opacity-40"
         />
         <input
           type="text"
@@ -83,9 +84,11 @@
       </div>
       <div class="flex flex-wrap justify-center list-none gap-4 py-6 text-sm">
         <li class="text-text-gray">Google offered in:</li>
-        <li class="text-blue cursor-pointer hover:underline">Français</li>
-        <li class="text-blue cursor-pointer hover:underline">Kiswahili</li>
-        <li class="text-blue cursor-pointer hover:underline">Ikinyarwanda</li>
+        <li class="text-blue cursor-pointer lg:hover:underline">Français</li>
+        <li class="text-blue cursor-pointer lg:hover:underline">Kiswahili</li>
+        <li class="text-blue cursor-pointer lg:hover:underline">
+          Ikinyarwanda
+        </li>
       </div>
     </main>
     <footer
@@ -101,18 +104,46 @@
         class="lg:flex block justify-between flex-wrap text-sm list-none lg:py-3 lg:px-2 py-4 px-12 cursor-pointer font-arial"
       >
         <ul class="flex items-center lg:space-x-6 space-x-4">
-          <li class="hover:underline sm:hidden flex">Dark theme:</li>
-          <li class="hover:underline">About</li>
-          <li class="hover:underline">Advertising</li>
-          <li class="hover:underline">Business</li>
-          <li class="hover:underline lg:flex hidden">How search works</li>
+          <li class="lg:hover:underline hover:text-gray-none sm:hidden flex">
+            Dark theme:
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            About
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            Advertising
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            Business
+          </li>
+          <li class="lg:hover:underline lg:hover:text-text-gray lg:flex hidden">
+            How search works
+          </li>
         </ul>
         <div
           class="flex items-center lg:space-x-6 space-x-2 flex-wrap lg:py-0 lg:px-8 px-14 py-4"
         >
-          <li class="hover:underline">Privacy</li>
-          <li class="hover:underline">Terms</li>
-          <li class="hover:underline">Settings</li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray sm:hover:text-gray-none"
+          >
+            Privacy
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            Terms
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            Settings
+          </li>
         </div>
       </div>
     </footer>
