@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Google</title>
+    <link rel="icon" type="image/x-icon" href="/public/favicon.ico/fav.svg" />
+  </head>
+  <body class="h-screen flex flex-col justify-between font-arial">
+    <header
+      class="items-center list-none gap-3 lg:justify-end py-2 px-2 text-sm cursor-pointer"
+    >
+      <div class="flex lg:justify-end justify-between items-center space-x-4">
+        <div class="flex items-center space-x-4 f lg:hidden">
+          <li>
+            <img
+              class="max-w-xs h-6"
+              src="./Images/menu_FILL0_wght400_GRAD0_opsz48.svg"
+              alt="menu"
+            />
+          </li>
+          <li
+            class="uppercase text-solid-blue border-b font-bold border-solid-blue p-2 text-xs"
+          >
+            all
+          </li>
+          <li class="uppercase text-xs">images</li>
+        </div>
+        <div class="lg:flex space-x-3 hidden text-gray-none">
+          <li class="hover:underline">Gmail</li>
+          <li class="hover:underline">Images</li>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img
+            class="hover:bg-gray rounded-full p-2"
+            width="40"
+            src="./Images/apps_FILL0_wght400_GRAD0_opsz48.svg"
+            alt="apps"
+          />
+          <div class="hover:bg-gray hover:rounded-full p-1">
+            <img
+              class="rounded-full"
+              width="30"
+              src="./Images/AOh-ky0SFc6x9l4rkh_Mse_a8JuyUh2Ia65JrASkdZcv=s64-c-mo.jpeg"
+              alt="user"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="flex flex-1 flex-col items-center sm:my-0 my-4 lg:pt-0 pt-10">
+      <img class="w-40 sm:w-80" src="./Images/google.png" alt="google" />
+      <div
+        class="border border-solid-gray rounded-3xl relative transform flex items-center px-4 lg:mt-10 mt-6 w-[90%] lg:w-2/5 hover:shadow-searchshadow"
+      >
+        <img
+          src="./Images/search_FILL0_wght400_GRAD0_opsz48 (1).svg"
+          alt="search"
+          class="w-5 opacity-40"
+        />
+        <input
+          type="text"
+          class="outline-none bg-none border-none py-2.5 ml-3 w-full"
+        />
+        <img
+          src="./Images/voice.svg"
+          alt="voice-icon"
+          class="w-5 cursor-pointer lg:flex hidden"
+        />
+      </div>
+      <div
+        class="lg:flex hidden gap-6 mt-6 text-sm cursor-pointer list-none text-black"
+      >
+        <li
+          class="bg-gray-100 py-2 px-4 border border-transparent rounded-sm hover:border-solid-gray hover:shadow"
+        >
+          Google Search
+        </li>
+        <li
+          class="bg-gray-100 py-2 px-4 border border-transparent rounded-sm hover:border-solid-gray hover:shadow"
+        >
+          I'm feeling lucky
+        </li>
+      </div>
+      <div class="flex flex-wrap justify-center list-none gap-4 py-6 text-sm">
+        <li class="text-text-gray">Google offered in:</li>
+        <li class="text-blue cursor-pointer lg:hover:underline">Français</li>
+        <li class="text-blue cursor-pointer lg:hover:underline">Kiswahili</li>
+        <li class="text-blue cursor-pointer lg:hover:underline">
+          Ikinyarwanda
+        </li>
+      </div>
+    </main>
+    <footer
+      class="bg-gray-200 w-full bg-gray lg:mt-auto mt-72 text-text-gray flex flex-col flex-wrap justify-center"
+    >
+      <div class="border-b border-solid-gray">
+        <p class="py-4 lg:px-8 px-2 text-md">Rwanda</p>
+      </div>
+      <div
+        class="sm:border-transparent border-b lg:p-0 p-6 border-solid-gray"
+      ></div>
+      <div
+        class="lg:flex block justify-between flex-wrap text-sm list-none lg:py-3 lg:px-2 py-4 px-12 cursor-pointer font-arial"
+      >
+        <ul class="flex items-center lg:space-x-6 space-x-4">
+          <li class="lg:hover:underline hover:text-gray-none sm:hidden flex">
+            Dark theme:
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            About
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            Advertising
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            Business
+          </li>
+          <li class="lg:hover:underline lg:hover:text-text-gray lg:flex hidden">
+            How search works
+          </li>
+        </ul>
+        <div
+          class="flex items-center lg:space-x-6 space-x-2 flex-wrap lg:py-0 lg:px-8 px-14 py-4"
+        >
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray sm:hover:text-gray-none"
+          >
+            Privacy
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            Terms
+          </li>
+          <li
+            class="lg:hover:underline lg:hover:text-text-gray hover:text-gray-none"
+          >
+            Settings
+          </li>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
